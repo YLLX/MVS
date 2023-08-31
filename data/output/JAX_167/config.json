@@ -1,0 +1,138 @@
+{
+  "temporary_dir": "s2p_tmp",
+  "clean_tmp": false,
+  "clean_intermediate": false,
+  "tile_size": 800,
+  "border_margin": 10,
+  "max_processes": null,
+  "max_processes_stereo_matching": 4,
+  "timeout": 600,
+  "debug": false,
+  "relative_sift_match_thresh": true,
+  "sift_match_thresh": 0.6,
+  "max_pointing_error": 10,
+  "epipolar_thresh": 0.5,
+  "rectification_method": "rpc",
+  "n_gcp_per_axis": 5,
+  "horizontal_margin": 50,
+  "vertical_margin": 10,
+  "register_with_shear": true,
+  "disp_range_method": "exogenous",
+  "disp_range_exogenous_low_margin": -10,
+  "disp_range_exogenous_high_margin": 10,
+  "disp_range_extra_margin": 0.2,
+  "alt_min": null,
+  "alt_max": null,
+  "disp_min": 0,
+  "disp_max": 96,
+  "use_srtm": true,
+  "exogenous_dem": null,
+  "exogenous_dem_geoid_mode": true,
+  "rpc_alt_range_scale_factor": 1,
+  "matching_algorithm": "mgm",
+  "mgm_timeout": 600,
+  "max_disp_range": null,
+  "omp_num_threads": 1,
+  "msk_erosion": 2,
+  "census_ncc_win": 5,
+  "mgm_leftright_threshold": 1.0,
+  "mgm_leftright_control": 1,
+  "mgm_mindiff_control": -1,
+  "mgm_nb_directions": 8,
+  "stereo_speckle_filter": 25,
+  "stereo_regularity_multiplier": 1.0,
+  "3d_filtering_r": 5,
+  "3d_filtering_n": 10,
+  "cargarse_basura": true,
+  "fusion_operator": "average_if_close",
+  "fusion_thresh": 3,
+  "out_crs": "epsg:32617",
+  "out_geoid": false,
+  "dsm_resolution": 4,
+  "dsm_radius": 0,
+  "dsm_sigma": null,
+  "out_dir": ".",
+  "img_dir": "/home/yx/MyCode/DL-3DConstruction/S2P_MVS/data/input/JAX_167/images",
+  "metadata_dir": "/home/yx/MyCode/DL-3DConstruction/S2P_MVS/data/input/JAX_167/../metadata/JAX",
+  "roi": {
+    "x": 0,
+    "y": 0,
+    "w": 2048,
+    "h": 2048
+  },
+  "images": [
+    {
+      "img": "/home/yx/MyCode/DL-3DConstruction/S2P_MVS/data/input/JAX_167/images/JAX_167_016_RGB.tif"
+    },
+    {
+      "img": "/home/yx/MyCode/DL-3DConstruction/S2P_MVS/data/input/JAX_167/images/JAX_167_023_RGB.tif"
+    },
+    {
+      "img": "/home/yx/MyCode/DL-3DConstruction/S2P_MVS/data/input/JAX_167/images/JAX_167_006_RGB.tif"
+    },
+    {
+      "img": "/home/yx/MyCode/DL-3DConstruction/S2P_MVS/data/input/JAX_167/images/JAX_167_018_RGB.tif"
+    },
+    {
+      "img": "/home/yx/MyCode/DL-3DConstruction/S2P_MVS/data/input/JAX_167/images/JAX_167_014_RGB.tif"
+    },
+    {
+      "img": "/home/yx/MyCode/DL-3DConstruction/S2P_MVS/data/input/JAX_167/images/JAX_167_004_RGB.tif"
+    },
+    {
+      "img": "/home/yx/MyCode/DL-3DConstruction/S2P_MVS/data/input/JAX_167/images/JAX_167_015_RGB.tif"
+    },
+    {
+      "img": "/home/yx/MyCode/DL-3DConstruction/S2P_MVS/data/input/JAX_167/images/JAX_167_003_RGB.tif"
+    },
+    {
+      "img": "/home/yx/MyCode/DL-3DConstruction/S2P_MVS/data/input/JAX_167/images/JAX_167_011_RGB.tif"
+    },
+    {
+      "img": "/home/yx/MyCode/DL-3DConstruction/S2P_MVS/data/input/JAX_167/images/JAX_167_005_RGB.tif"
+    },
+    {
+      "img": "/home/yx/MyCode/DL-3DConstruction/S2P_MVS/data/input/JAX_167/images/JAX_167_025_RGB.tif"
+    },
+    {
+      "img": "/home/yx/MyCode/DL-3DConstruction/S2P_MVS/data/input/JAX_167/images/JAX_167_020_RGB.tif"
+    },
+    {
+      "img": "/home/yx/MyCode/DL-3DConstruction/S2P_MVS/data/input/JAX_167/images/JAX_167_022_RGB.tif"
+    },
+    {
+      "img": "/home/yx/MyCode/DL-3DConstruction/S2P_MVS/data/input/JAX_167/images/JAX_167_013_RGB.tif"
+    },
+    {
+      "img": "/home/yx/MyCode/DL-3DConstruction/S2P_MVS/data/input/JAX_167/images/JAX_167_021_RGB.tif"
+    },
+    {
+      "img": "/home/yx/MyCode/DL-3DConstruction/S2P_MVS/data/input/JAX_167/images/JAX_167_008_RGB.tif"
+    },
+    {
+      "img": "/home/yx/MyCode/DL-3DConstruction/S2P_MVS/data/input/JAX_167/images/JAX_167_001_RGB.tif"
+    },
+    {
+      "img": "/home/yx/MyCode/DL-3DConstruction/S2P_MVS/data/input/JAX_167/images/JAX_167_007_RGB.tif"
+    },
+    {
+      "img": "/home/yx/MyCode/DL-3DConstruction/S2P_MVS/data/input/JAX_167/images/JAX_167_009_RGB.tif"
+    },
+    {
+      "img": "/home/yx/MyCode/DL-3DConstruction/S2P_MVS/data/input/JAX_167/images/JAX_167_002_RGB.tif"
+    },
+    {
+      "img": "/home/yx/MyCode/DL-3DConstruction/S2P_MVS/data/input/JAX_167/images/JAX_167_010_RGB.tif"
+    },
+    {
+      "img": "/home/yx/MyCode/DL-3DConstruction/S2P_MVS/data/input/JAX_167/images/JAX_167_026_RGB.tif"
+    },
+    {
+      "img": "/home/yx/MyCode/DL-3DConstruction/S2P_MVS/data/input/JAX_167/images/JAX_167_012_RGB.tif"
+    },
+    {
+      "img": "/home/yx/MyCode/DL-3DConstruction/S2P_MVS/data/input/JAX_167/images/JAX_167_019_RGB.tif"
+    }
+  ],
+  "gsd": 0.3351861675923235
+}

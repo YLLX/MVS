@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibmw.a CMakeFiles/libmw.dir/fgrain.c.o CMakeFiles/libmw.dir/mw3/error.c.o CMakeFiles/libmw.dir/mw3/fimage.c.o CMakeFiles/libmw.dir/mw3/fsignal.c.o CMakeFiles/libmw.dir/mw3/libmw.c.o CMakeFiles/libmw.dir/mw3/list.c.o CMakeFiles/libmw.dir/mw3/shape.c.o CMakeFiles/libmw.dir/flst/flst.c.o CMakeFiles/libmw.dir/flst/flst_reconstruct.c.o CMakeFiles/libmw.dir/flst/flst_pixels.c.o CMakeFiles/libmw.dir/flst/flstb_dualchain.c.o CMakeFiles/libmw.dir/flst/fsaddles.c.o
+/usr/bin/ranlib liblibmw.a

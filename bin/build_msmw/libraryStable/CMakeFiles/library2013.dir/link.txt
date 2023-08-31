@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibrary2013.a CMakeFiles/library2013.dir/iio.c.o CMakeFiles/library2013.dir/libraryBasic.cpp.o
+/usr/bin/ranlib liblibrary2013.a

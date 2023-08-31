@@ -1,0 +1,21 @@
+This is a program to transform an image by an homography.  The running time is
+proportional to the size of the output image.  The basic usage is to extract a
+small crop from a huge image, and apply a small homography to the crop.  The
+running time is independent of the size of the large image.
+
+This program is used inside the s2p satellite stereo pipeline
+http://github.com/cmla/s2p
+
+Right now the input image extraction is performed by gdal, but this dependency
+can be easily removed if needed, to use regular libtiff.
+
+HISTORY OF THIS CODE:
+
+Pascal Monasse: original algorithm for correct homographic resampling
+Gabriele Facciolo: improvements upon the original algorithm
+Marc Lebrun: optimized re-implementation of the C code using SIMD instructions
+Carlo de Franchis: interfaces to s2p
+Enric Meinhardt-Llopis: put this code in an individual github repository
+
+For a full git history and blame, look at the s2p commit history before the
+"c/homography" folder was removed from the tree.

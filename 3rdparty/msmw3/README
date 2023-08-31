@@ -1,0 +1,9 @@
+This is a program find matches by Multi-Scale Multi-Window correlation.
+It is based on algorithms developed by Antoni Buades and Gabriele Facciolo.
+The optimized SIMD implementation here is by Marc Lebrun.
+
+This program is used inside the s2p satellite stereo pipeline
+http://github.com/cmla/s2p
+
+For a full git history and blame, look at the s2p commit history before the
+"c/msmw" folder was removed from the tree.

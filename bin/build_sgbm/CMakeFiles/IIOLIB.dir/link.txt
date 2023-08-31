@@ -1,0 +1,2 @@
+/usr/bin/ar qc libIIOLIB.a CMakeFiles/IIOLIB.dir/iio.c.o
+/usr/bin/ranlib libIIOLIB.a

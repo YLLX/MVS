@@ -1,0 +1,12 @@
+{
+  "out_dir" : "../../output/JAX_161",
+  "img_dir" : "images",
+  "metadata_dir" : "../metadata/JAX",
+  "roi" : {
+      "x" : 0,
+      "y" : 0,
+      "w" : 2048,
+      "h" : 2048
+  },
+  "tile_size" : 800
+}

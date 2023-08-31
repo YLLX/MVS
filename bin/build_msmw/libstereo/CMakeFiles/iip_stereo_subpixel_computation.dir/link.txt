@@ -1,0 +1,1 @@
+/usr/bin/c++ -march=native -O3 -O3 -funroll-loops -Wno-unused -DNDEBUG -fopenmp -g -O3  -O3 -DNDEBUG -rdynamic CMakeFiles/iip_stereo_subpixel_computation.dir/iip_stereo_subpixel_computation.cpp.o CMakeFiles/iip_stereo_subpixel_computation.dir/libstereo.cpp.o -o iip_stereo_subpixel_computation  ../libraryStable/liblibrary2013.a -lfftw3f ../libmw/liblibmw.a -ltiff -lpng -lz -ljpeg 
